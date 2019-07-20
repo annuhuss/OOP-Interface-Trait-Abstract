@@ -30,9 +30,9 @@ interface Services extends EntertainmentServices, FoodServices
 
 abstract class ServicePackage implements Services 
 {
-	//abstract public function menu_X();
-	//abstract public function menu_Y();
-	//abstract public function menu_Z();
+	abstract public function menu_X();
+	abstract public function menu_Y();
+	abstract public function menu_Z();
 
 	//abstract public function device_X();
 	//abstract public function device_Y();
