@@ -28,7 +28,7 @@ An <strong>Interface</strong> is the mechanism of specifying which methods a cla
 
 <p>
 <i>
-On the other hand, the class that consist of at least one abstract method is known as <strong>Abstract class</strong>. An Abstract class is defined by the <strong>abstract</strong> in conjunction with <strong>class</strong> keywords. In fact, an abstract method of an Abstract class is simply declared by it’s signature. Now what is the <strong>abstract method</strong>, we meant above? A method that does not obtain any implementation, more specifically, which does not belong a body, is defined as abstract method. Additionally, all the abstract methods of an Abstract class must be defined by the <strong>abstract</strong> keyword.
+On the other hand, the class that consist of at least one abstract method is known as <strong>Abstract class</strong>. An Abstract class is defined by the <strong>abstract</strong> in conjunction with <strong>class</strong> keywords. In fact, an abstract method of an Abstract class is simply declared by it’s signature. Now what is the <strong>abstract method</strong>, we meant above? A method that does not obtain any implementation, more specifically, which does not obtain a body, is defined as abstract method. Additionally, all the abstract methods of an Abstract class must be defined by the <strong>abstract</strong> keyword.
 </i>
 </p>
 
