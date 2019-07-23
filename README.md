@@ -8,7 +8,7 @@ When we talk about <em>Object Oriented Programming</em> in <em>PHP</em>, there a
 
 <p>
 <i>
-A <strong>Trait</strong> is the tool that is introduced in PHP to resolve the limitation of single inheritance and to give a flavor of multiple inheritance. Unlike other OOP languages, PHP does not support the concept of multiple inheritance. To be precise, in PHP, a child class can not be derived from more than one parent classes. Consequently, Trait is the mechanism that come to play an important role in PHP to get rid of the situation. Basically, a Trait is defined by the use of <strong>trait</strong> keyword and it is inserted within a class by the use of <strong>use</strong> keyword. Nevertheless, a Trait can not be instantiated during it’s life time. Last but not least, a Trait can define both properties and methods, but it can not define constants.
+According to the PHP documentation, <strong>Trait</strong> are a mechanism for code reuse in single inheritance languages such as PHP. Purposely,Traits are introduced in PHP language to resolve the limitation of single inheritance and to give a flavor of multiple inheritance. Unlike other OOP languages, PHP does not support the concept of multiple inheritance. To be precise, in PHP a child class can not be derived from more than one parent classes. Consequently, Traits are the strategy for playing an important role in PHP to get rid of the situation. Basically, a Trait can be defined by the use of <strong>trait</strong> keyword and it can be inserted within a class by the use of <strong>use</strong> keyword. Nevertheless, Traits can not be instantiated by their own during their life time. Last but not least, Traits can define both properties and methods, but they can not define constants.
 </i>
 </p>
 
@@ -50,8 +50,22 @@ In this article, I am going to introduce a number of examples by discussing some
 </p>
 
 <p>
+</p>
+<p>
+</p>
+
+<p>
 <i>
-A detail illustration on this topic and some of my other Object-Oriented-Programming articles can be found in 
+Stars from the audience would be always appreciated.
+</i>
+</p>
+
+<p>
+</p>
+
+<p>
+<i>
+A detail illustration of this topic and some of my other articles on different topics can be reached by
 <a href="https://medium.com/@annuhuss/">the medium blog site</a>.
 </i>
 </p>
