@@ -1,5 +1,5 @@
 <h1>
-Some of the PHP's Object Model Features: Interfaces, Traits and Abstract Classes
+Some of the PHPs Object Model Features: Interfaces, Traits and Abstract Classes
 </h1>
 
 <p>
