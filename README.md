@@ -3,7 +3,7 @@ Some of the PHPs Object Model Features: Interfaces, Traits and Abstract Classes
 </h1>
 
 <p>
-When we talk about <em>Object Oriented Programming</em> in <em>PHP</em>, there are three most exciting features out of the complete object model get into involve frequently in many applications and these are <i><strong>Interfaces</strong></i>, <i><strong>Traits</strong></i> and <i><strong>Abstract Classes</strong></i>. Literally, the concept of Interface and Abstract in PHP is quite relevant to the concept of those in other OOP languages. But the Trait in PHP is something different.
+When we talk about <em>Object Oriented Programming</em> in <em>PHP</em>, there are three most exciting features out of the complete object model get into involve frequently in many applications and these are <i><strong>Interfaces</strong></i>, <i><strong>Traits</strong></i> and <i><strong>Abstract Classes</strong></i>. Literally, the concept of Interface and Abstract in PHP is quite relevant to the concept of those in other OOP languages. But Traits in PHP is something different.
 </p>
 
 <p>
@@ -28,12 +28,12 @@ An <strong>Interface</strong> is the mechanism of specifying which methods a cla
 
 <p>
 <i>
-On the other hand, the class that consist of at least one abstract method is known as <strong>Abstract class</strong>. An Abstract class is defined by the <strong>abstract</strong> in conjunction with <strong>class</strong> keywords. In fact, an abstract method of an Abstract class is simply declared by it’s signature. Now what is the <strong>abstract method</strong>, we meant above? A method that does not obtain any implementation, more specifically, which does not obtain a body, is defined as abstract method. Additionally, all the abstract methods of an Abstract class must be defined by the <strong>abstract</strong> keyword.
+On the other hand, the class that consist of at least one abstract method is known as <strong>Abstract class</strong>. An Abstract class is defined by the <strong>abstract</strong> in conjunction with <strong>class</strong> keywords. In fact, an abstract method of an Abstract class is simply declared by it’s signature. Now what is the <strong>abstract method</strong>, we meant above? A method that does not obtain any implementation, more specifically, a method that does not hold a body, is known as abstract method. Additionally, all the abstract methods of an Abstract class must be defined by the <strong>abstract</strong> keyword.
 </i>
 </p>
 
 <p>
-In the PHP documentation it also says, an Abstract class may not be instantiated. By the way, we may invoke a non abstract method of an Abstract class without extending it by other classes. For example, a non-abstract static method of an Abstract class can be invoked by itself. Generally, an Abstract class is partially implemented, means that, it may be consist of both abstract and non-abstract methods. Last but not the least, if an Interface is first implemented by an Abstract class and the Abstract class is further extended by another class except any Abstract class then, all the abstract methods must be implemented by that class. During this procedure, if a method of the Interface is not implemented by the Abstract class then either the method can be totally avoided, by not showing it within Abstract class or it can be defined by using abstract keyword. Looks a bit clumsy, hmm! Don't worry, we will see this scenario by the aid of last example.
+In the PHP documentation it also says, an Abstract class may not be instantiated, they only can be extendable by other classes. By the way, we may invoke a non abstract method of an Abstract class without extending it by other classes. For example, a non-abstract static method of an Abstract class can be invoked by itself. Generally, an Abstract class is partially implemented, means that, it may be consist of both abstract and non-abstract methods. Last but not the least, if an Interface is first implemented by an Abstract class and the Abstract class is further extended by another class except any Abstract class then, all the abstract methods must be implemented by that class. During this procedure, if a method of the Interface is not implemented by the Abstract class then either the method can be totally avoided, by not showing it within Abstract class or it can be defined by using abstract keyword. Looks a bit clumsy, hmm! Don't worry, we will see this scenario by the aid of last example.
 </p>
 
 <p>
